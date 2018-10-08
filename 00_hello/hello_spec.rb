@@ -1,12 +1,37 @@
+
+#
+require_relative "hello"
+
+describe "the hello function" do
+  it "says hello" do
+    expect(hello).to eq("Hello!")
+  end
+end
+
+describe "the greet function" do
+  it "says hello to someone" do
+    expect(greet("Alice")).to eq("Hello, Alice!")
+  end
+
+  it "says hello to someone else" do
+    expect(greet("Bob")).to eq("Hello, Bob!")
+  end
+end
+
+
+
+
+# ---------------------------------------------
+
 # # Hello!
-#
+# 
 # This lab teaches basic Ruby function syntax.
-#
+# 
 # ## Open a terminal in this directory
-#
-#     cd 00_hello
-#
-# This directory is the starting point for this exercise. It contains a spec file and a ruby file to (eventually) make the specs pass.
+# 
+#      cd 00_hello
+# 
+#  This directory is the starting point for this exercise. It contains a spec file and a ruby file to (eventually) make the specs pass.
 #
 # ## Run the test
 #
@@ -98,21 +123,3 @@
 #     def greet(who)
 #       "Hello, #{who}!"
 #     end
-#
-require "hello"
-
-describe "the hello function" do
-  it "says hello" do
-    expect(hello).to eq("Hello!")
-  end
-end
-
-describe "the greet function" do
-  it "says hello to someone" do
-    expect(greet("Alice")).to eq("Hello, Alice!")
-  end
-
-  it "says hello to someone else" do
-    expect(greet("Bob")).to eq("Hello, Bob!")
-  end
-end
