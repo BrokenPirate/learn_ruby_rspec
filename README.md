@@ -1,3 +1,13 @@
+
+Introduction à RSPEC - Ruby - THP 
+Session 6 - Strasbourg
+
+ Ugo Gessa
+ slack: Ugo Gessa
+ correcteur : https://appear.in/dev-ugo
+
+======================================================================
+
 Test First Ruby -- RSpec 3 Edition
 ==========
 
